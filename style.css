@@ -1,0 +1,387 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  background-color: #1691ad;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fd860f;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fd860f;
+}
+
+nav a.active {
+  color: #fd860f;
+  text-decoration: underline;
+}
+
+/* Seções principais */
+section {
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+section h3 {
+  color: #1691ad;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+/* Banner de destaque */
+.destaque {
+  background-color: #fd860f;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.btn-destaque {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1691ad;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-destaque:hover {
+  background-color: #117a94;
+}
+
+.valores {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #1691ad;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+  color: #1691ad;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p,
+.card ul {
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+
+/* Lista de benefícios */
+.beneficios {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.beneficios li {
+  margin-bottom: 10px;
+}
+
+/* Imagens */
+.logo,
+.imagem-sobre {
+  width: 200px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Lista de equipe */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 2px solid #1691ad;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 20px auto;
+  max-width: 450px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.card-horizontal .foto-equipe {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.info-equipe p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+
+ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Fotos da equipe e bios */
+.foto-equipe {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.foto-bio {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Tabela de portfólio */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #1691ad;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Formulário de contato */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1691ad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #117a94;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #1691ad;
+  color: white;
+}
+
+/* Responsividade básica */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo,
+  .imagem-sobre {
+    width: 150px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 14px;
+  } 
+}
+
+/* Seção de serviços */
+.servicos {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.card-servico {
+  background-color: #ffffff;
+  border: 2px solid #1691ad;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.card-servico h4 {
+  font-size: 20px;
+  color: #1691ad;
+  margin-bottom: 10px;
+}
+
+.card-servico p {
+  font-size: 16px;
+}
+
+/* Seção de impacto */
+.impacto {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.impacto h3 {
+  font-size: 24px;
+  color: #1691ad;
+}
+
+.impacto p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.impacto blockquote {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
+
+.cabecalho-flex {
+  background-color: #1691ad;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.logo-lateral {
+  width: 80px;
+  height: auto;
+}
+
+.logo-titulo h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fd860f;
+}
+.logo-lateral {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Isso deixa a imagem redonda */
+}

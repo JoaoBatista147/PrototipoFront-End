@@ -1,0 +1,57 @@
+.sobre {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.sobre h3 {
+  color: #1691ad;
+  font-size: 28px;
+}
+
+.sobre h4 {
+  color: #fd860f;
+  margin-top: 20px;
+}
+
+.sobre ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.imagem-sobre {
+  display: block;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: left;
+}
+
+.portfolio h3 {
+  color: #1691ad;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #1691ad;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
