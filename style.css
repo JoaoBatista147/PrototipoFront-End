@@ -1,4 +1,4 @@
-/* Estilo geral */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f8ff;
@@ -6,7 +6,6 @@ body {
   padding: 20px;
 }
 
-/* Cabeçalho */
 header {
   text-align: center;
   background-color: #1691ad;
@@ -25,7 +24,7 @@ header h2 {
   color: #fd860f;
 }
 
-/* Menu de navegação */
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -51,7 +50,7 @@ nav a.active {
   text-decoration: underline;
 }
 
-/* Seções principais */
+
 section {
   text-align: center;
   margin-top: 40px;
@@ -59,7 +58,7 @@ section {
 }
 
 section h3 {
-  color: #1691ad;
+  color: #22d6ff;
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -70,7 +69,7 @@ section p {
   font-size: 18px;
 }
 
-/* Banner de destaque */
+
 .destaque {
   background-color: #fd860f;
   color: white;
@@ -84,7 +83,7 @@ section p {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #1691ad;
+  background-color: #22d6ff;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -92,7 +91,7 @@ section p {
 }
 
 .btn-destaque:hover {
-  background-color: #117a94;
+  background-color: #22d6ff;
 }
 
 .valores {
@@ -104,7 +103,7 @@ section p {
 
 .card {
   background-color: #ffffff;
-  border: 2px solid #1691ad;
+  border: 2px solid #12ccf5;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px;
@@ -112,7 +111,7 @@ section p {
 }
 
 .card h4 {
-  color: #1691ad;
+  color: #0a5768;
   font-size: 22px;
   margin-bottom: 10px;
 }
@@ -131,7 +130,7 @@ section p {
 }
 
 
-/* Lista de benefícios */
+
 .beneficios {
   list-style: none;
   padding: 0;
@@ -143,7 +142,7 @@ section p {
   margin-bottom: 10px;
 }
 
-/* Imagens */
+
 .logo,
 .imagem-sobre {
   width: 200px;
@@ -152,7 +151,7 @@ section p {
   border-radius: 10px;
 }
 
-/* Lista de equipe */
+
 ul {
   list-style-type: disc;
   padding-left: 20px;
@@ -167,7 +166,7 @@ ul {
   gap: 15px;
   text-align: left;
   background-color: #ffffff;
-  border: 2px solid #1691ad;
+  border: 2px solid #22d6ff;
   border-radius: 10px;
   padding: 10px 15px;
   margin: 20px auto;
@@ -197,7 +196,7 @@ ul li {
   gap: 10px;
 }
 
-/* Fotos da equipe e bios */
+
 .foto-equipe {
   width: 100px;
   height: 100px;
@@ -216,7 +215,6 @@ ul li {
   display: block;
 }
 
-/* Tabela de portfólio */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -225,17 +223,38 @@ table {
 
 th {
   background-color: #1691ad;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   text-align: left;
 }
 
 td {
-  border: 1px solid #ccc;
+  border: 1px solid #fbfbfb;
   padding: 10px;
 }
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
 
-/* Formulário de contato */
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #1691ad;
+  vertical-align: top;
+}
+
+th {
+  background-color: #1691ad;
+  font-weight: bold;
+}
+
 form {
   max-width: 500px;
   margin: 20px auto;
@@ -271,7 +290,7 @@ form button:hover {
   background-color: #117a94;
 }
 
-/* Rodapé */
+
 footer {
   text-align: center;
   margin-top: 60px;
@@ -280,7 +299,7 @@ footer {
   color: white;
 }
 
-/* Responsividade básica */
+
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
@@ -299,7 +318,7 @@ footer {
   } 
 }
 
-/* Seção de serviços */
+
 .servicos {
   max-width: 800px;
   margin: 40px auto;
@@ -308,7 +327,7 @@ footer {
 
 .card-servico {
   background-color: #ffffff;
-  border: 2px solid #1691ad;
+  border: 2px solid #22d6ff;
   border-radius: 10px;
   padding: 20px;
   margin: 20px auto;
@@ -318,7 +337,7 @@ footer {
 
 .card-servico h4 {
   font-size: 20px;
-  color: #1691ad;
+  color: #22d6ff;
   margin-bottom: 10px;
 }
 
@@ -326,7 +345,7 @@ footer {
   font-size: 16px;
 }
 
-/* Seção de impacto */
+
 .impacto {
   text-align: center;
   margin: 40px auto;
@@ -335,7 +354,7 @@ footer {
 
 .impacto h3 {
   font-size: 24px;
-  color: #1691ad;
+  color: #0a5768;
 }
 
 .impacto p {
@@ -383,5 +402,42 @@ header h2 {
   width: 80px;
   height: 80px;
   object-fit: cover;
-  border-radius: 50%; /* Isso deixa a imagem redonda */
+  border-radius: 50%; 
+}
+body {
+  background-image: url('Design sem nome.png');
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url('Design sem nome.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: brightness(0.4) blur(2px);
+}
+body {
+  position: relative;
+  z-index: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header.cabecalho-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #19768b; 
 }
