@@ -6,7 +6,6 @@ body {
   padding: 20px;
 }
 
-
 header {
   text-align: center;
   background-color: #1691ad;
@@ -104,7 +103,7 @@ section p {
 
 .card {
   background-color: #ffffff;
-  border: 2px solid #12ccf5;
+  border: 2px solid #0d89a4;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px;
@@ -442,3 +441,4 @@ header.cabecalho-flex {
   align-items: center; 
   background-color: #19768b; 
 }
+
